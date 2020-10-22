@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
 
 
 import pickle
@@ -9,7 +8,6 @@ import sklearn
 from sklearn import datasets
 
 
-# In[2]:
 
 
 # The training model: Iris experiment -- implicit approach
@@ -20,19 +18,16 @@ from sklearn import datasets
 #print(model)
 
 
-# In[ ]:
 
 
 
 
 
-# In[ ]:
 
 
 
 
 
-# In[3]:
 
 
 # The training model: Explicit experiment -- explicit approach
@@ -42,14 +37,6 @@ from sklearn import datasets
 #model = model.detach().numpy()
 #print(model)
 
-
-# In[ ]:
-
-
-
-
-
-# In[4]:
 
 
 # Iris dataset
@@ -72,14 +59,6 @@ X1test = X1[10:50, :]
 X2test = X2[10:50,:]
 
 
-# In[ ]:
-
-
-
-
-
-# In[6]:
-
 
 # Circles set
 # Training set
@@ -97,13 +76,11 @@ X0test = X1[0:ninstance1];
 X1test = X1[ninstance1:]
 
 
-# In[ ]:
 
 
 
 
 
-# In[ ]:
 
 
 

@@ -14,7 +14,7 @@ Noise model for ibmq_bogota is in 'error_bogota.xlsx' file.
 # Iris experiment
 For Iris experiment, the trained model is `iris1_training_model100.txt'
 
-Data can be generated from Python code
+Data can be generated from Python code. The code is included in the note 'model_readout.py'
 
 
 # Explicit experiment
